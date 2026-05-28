@@ -656,16 +656,17 @@
   /* ─────────────────────────────────────
      ⚙️  CONFIGURE YOUR FIREBASE & BACKEND
   ──────────────────────────────────────*/
-  const FIREBASE_CONFIG = {
-    apiKey:            "YOUR_API_KEY",
-    authDomain:        "YOUR_PROJECT.firebaseapp.com",
-    databaseURL:       "https://YOUR_PROJECT-default-rtdb.firebaseio.com",
-    projectId:         "YOUR_PROJECT_ID",
-    storageBucket:     "YOUR_PROJECT.appspot.com",
-    messagingSenderId: "YOUR_SENDER_ID",
-    appId:             "YOUR_APP_ID"
+  const firebaseConfig = {
+    apiKey: "AIzaSyAo-_UfJMfJZ0sh9hk0SGUUxrJfkQUbTsA",
+    authDomain: "fir-project-b6ecc.firebaseapp.com",
+    databaseURL: "https://fir-project-b6ecc-default-rtdb.firebaseio.com",
+    projectId: "fir-project-b6ecc",
+    storageBucket: "fir-project-b6ecc.firebasestorage.app",
+    messagingSenderId: "683703781261",
+    appId: "1:683703781261:web:9ad63ffdf7846244da5fc4",
+    measurementId: "G-0JES4VNDY7"
   };
-  const BACKEND_URL = "https://your-render-app.onrender.com"; // or http://localhost:5000 for dev
+  const BACKEND_URL = "https://chatup-dw2t.onrender.com"; // or http://localhost:5000 for dev
 
   /* ─── Init Firebase ─── */
   const app  = initializeApp(FIREBASE_CONFIG);
